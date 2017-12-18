@@ -1,0 +1,57 @@
+body {
+    background: #eae5e5;
+}
+
+.app {
+    width: 900px;
+    margin: auto;
+    background: #f4e8e1;
+}
+
+.container {
+    /* background: #fff; */
+}
+
+ .navHead {
+    height: 200px;
+    overflow: hidden;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.introduceMain>div>img {
+    height: 200px;
+    width: 280px;
+}
+
+.introduce {
+    margin: 5px;
+}
+
+.introduce>div {
+    float: left;
+}
+
+.introduce img {
+    height: 200px;
+    width: 280px;
+}
+
+.introduce>div>h3 {
+    background: #d98454;
+}
+
+.introduceMain,.buyMain,.concat{
+    display: none
+}
+
+.active {
+    display: block;
+}
