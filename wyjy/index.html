@@ -7,12 +7,23 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>白云山维一精油介绍</title>
   <style>
+    #img {
+      width: 100%;
+    }
+
     img {
       width: 100%;
     }
   </style>
 </head>
 <body>
-<img src="https://ws4.sinaimg.cn/large/006tNc79gy1foyu2beai6j30bi6jetm1.jpg" alt="">
+<div id="img">
+  <img src="https://ws4.sinaimg.cn/large/006tNc79gy1foyu2beai6j30bi6jetm1.jpg" alt="">
+</div>
+<script>
+  document.querySelector('#img').addEventListener('click', function (e) {
+    e.preventDefault()
+  })
+</script>
 </body>
 </html>
